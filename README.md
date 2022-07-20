@@ -1,2 +1,2 @@
 # symfony
-symfony
+symfony - ważne i ciekawe
