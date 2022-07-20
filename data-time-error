@@ -1,0 +1,22 @@
+When using date/time fields in EasyAdmin backends, you must install and enable the PHP Intl extension, which is used to format date/time values.
+
+answer:
+
+sudo apt-get update
+
+sudo apt-get install php7.0-intl
+
+sudo service apache2 restart
+
+
+
+
+php --ini
+
+sudo nano /.../php.ini
+
+find and uncomment:
+
+;extension=intl
+
+//restart server//
